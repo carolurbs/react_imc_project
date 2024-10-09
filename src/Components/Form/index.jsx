@@ -9,6 +9,7 @@ const Form =()=>{
     return(
         <form>
             <label htmlFor="altura">Digite sua altura (m)</label>
+            <br/>
             <input id="altura" type="number" placeholder="Ex: 1.80" required />
         </form>
     )
