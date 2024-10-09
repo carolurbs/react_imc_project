@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: #080313;
+  color: #d1fbfb;
+  text-align: center;
+  max-width: 1280px;
+  font-size: 1em;
+}
+
