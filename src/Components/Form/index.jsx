@@ -14,10 +14,10 @@ const Form =()=>{
 
     const Labeled =()=>{
         if(result<18.5) return setLabel("Você está abaixo do peso");
-        else if((result>18.5)&&(result<25.0)) return setLabel("Seu peso está ideal");
-        else if((result>25.0)&&(result<30.0))return setLabel("Você está com sobrepeso");
-        else if((result>30.0)&&(result<35.0))return setLabel("Você está com obesidade grau I");
-        else if((result>35.0)&&(result<40.0)) return setLabel("Você está com obesidade grau II");
+        else if(result>18.5 && result<25.0) return setLabel("Seu peso está ideal");
+        else if(result>25.0 && result<30.0)return setLabel("Você está com sobrepeso");
+        else if(result>30.0 && result<35.0)return setLabel("Você está com obesidade grau I");
+        else if(result>35.0 && result<40.0) return setLabel("Você está com obesidade grau II");
         else if(result>40.0) return setLabel("Você está com obesidade grau III");
     }
     
