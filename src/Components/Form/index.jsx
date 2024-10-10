@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+import styles from "../Form/Form.module.css";
 
 const Form =()=>{
     const[weight, setWeight] =useState(0);

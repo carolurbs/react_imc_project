@@ -1,0 +1,14 @@
+.container{
+    display:flex;
+    justify-content: center;
+    max-width: 100px;
+}
+header{
+    margin: 20px 150px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid #d1fbfb;
+}
+h1{
+    padding-bottom: 10px;
+}
